@@ -8,10 +8,11 @@
 <img width="1062" height="601" alt="Snímek obrazovky 2025-10-28 144952" src="https://github.com/user-attachments/assets/f8ad4b73-d845-405b-8250-9c53a8e77179" />
 
 1. Use a local webhook form with URL to trigger workflow
-2. Get the transcript using Apify scraper
-3. Extract keywords and search for scientific papers (Apify scraper), then get PDF (http request) and save to a vector database (Pinecone)
-4. Analyze transcript against paper using AI agent with RAG
-5. Combine results and save to a Google Sheets file
+2. Get the transcript of the video using Apify scraper
+3. Extract keywords (LLM) and search for scientific papers (Apify scraper)
+4. Get PDF (http request) and save to a vector database (Pinecone)
+5. Analyze transcript against paper using AI agent with RAG
+6. Combine results and save to a Google Sheets (OAuth2 verification) file
 
 **Result:**
 
